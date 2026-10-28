@@ -15,7 +15,7 @@ import Footer from "@/sections/Footer";
 import useProjects from "@hooks/useProjects";
 
 export default function App() {
-  const { projects, loading } = useProjects("cherrynox");
+  const { projects, loading } = useProjects("remunox");
 
   return (
     <Box sx={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
